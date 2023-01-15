@@ -10,7 +10,7 @@ public class iloscLiczb {
         int suma =0;
 
         for (int i=0; i < numbers; i++ ){
-
+            System.out.println("Podaj kolejną liczbe: ");
             suma = suma + sc.nextInt();
         }
         System.out.println("Suma wszystkich wpisanych liczb to: " +suma);
